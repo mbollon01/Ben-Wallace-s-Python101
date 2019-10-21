@@ -7,6 +7,10 @@ print (f"Hello {name}, i dont like you")
 age = int(input("How old are you?"))
 
 if age >+ 18:
-	print("You may visit Ben Wallace")
+	print("You are an adult")
+elif age >= 13:
+	print("You are a teenager")
+
 else:
-	print("NO! STAY AWAY FROM BENJAMIN!")
+	print("You are an child")
+
